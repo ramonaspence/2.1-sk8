@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+/* background-overlay-effect */
+
+body {
+  background: linear-gradient(
+    rgba(130, 130, 130, .5),
+    rgba(130, 130, 130, .5)),
+    url("images/bg.jpg") no-repeat;
+}
