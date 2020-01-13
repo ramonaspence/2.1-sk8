@@ -11,6 +11,20 @@ body {
     url("images/bg.jpg") no-repeat;
 }
 
+h2 {
+  font-size: 1rem;
+}
+
+time {
+  font-size: 0.6rem;
+  text-align: left;
+  font-style: italic;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
 .top-image {
   border: white solid 10px;
   overflow: hidden;
@@ -36,4 +50,19 @@ body {
   right: 0;
   left: 25px;
 }
+
+.article-modals {
   
+}
+
+.modal-card {
+  background-color: white;
+  color: black;
+  height: 275px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-top: 20px;
+
+
+}
