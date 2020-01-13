@@ -10,3 +10,30 @@ body {
     rgba(130, 130, 130, .5)),
     url("images/bg.jpg") no-repeat;
 }
+
+.top-image {
+  border: white solid 10px;
+  overflow: hidden;
+  height: 300px;
+
+
+}
+
+.top-image img {
+  position: relative;
+  right: 400px;
+  bottom: 175px;
+}
+
+.top-image::after {
+  content: '';
+  background-image: url("images/grid.png");
+  opacity: 0.5;
+  position: absolute;
+  width: 710px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 25px;
+}
+  
