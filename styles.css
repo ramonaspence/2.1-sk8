@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+
+}
+
 /* background-overlay-effect */
 body {
   background: linear-gradient(rgba(130, 130, 130, .5),
@@ -26,7 +36,56 @@ p {
 .container {
   width: 850px;
 }
+
+.subscribe {
+  text-align: right;
+  padding-top: 10px;
+
+}
+
+.icons {
+  padding-left: 55px;
+  text-align: center;
+
+}
+
+
+i {
+  font-size: 25px;
+  color: white;
+  box-shadow: 0px 5px gray;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  padding-top: 5px;
+  z-index: -20;
+
+}
+
+i.fab.fa-facebook-f {
+  background-color: blue;
+  opacity: 0.3;
+}
+
+i.fas.fa-rss {
+  background-color: orange;
+  opacity: 0.3;
+}
+
+
+i.fab.fa-twitter {
+  background-color: lightblue;
+  opacity: 0.3;
+}
+
+i.fab.fa-youtube {
+  background-color: red;
+  opacity: 0.3;
+}
+
 .top-image {
+  background-image: url("./images/top-image.png"); no-repeat cover;
+
   border: white solid 10px;
   overflow: hidden;
   height: 300px;
@@ -38,7 +97,12 @@ p {
   bottom: 175px;
 }
 
-.top-image::after {
+.grid-image {
+
+}
+/* grid on top of cameraman should be a background-image */
+
+/* .top-image::after {
   content: '';
   background-image: url("images/grid.png");
   opacity: 0.5;
@@ -48,7 +112,7 @@ p {
   bottom: 0;
   right: 0;
   left: 25px;
-}
+} */
 
 .modal-card {
   width: 200px;
