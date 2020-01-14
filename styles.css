@@ -51,11 +51,10 @@ p {
   left: 25px;
 }
 
-.article-modals {
 
+.modal-div {
+  display: inline;
 }
-
-
 
 .modal-card {
 
