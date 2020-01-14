@@ -146,6 +146,21 @@ span {
   transform: translateX(120%);
 }
 
+.skater-small {
+  height: 210px;
+
+
+}
+.skater-small>img {
+  width: 100%;
+}
+.skater>img {
+  width: 100%;
+  /* border: white solid 1px; */
+
+
+}
+
 
 /* grid on top of cameraman should be a background-image */
 
