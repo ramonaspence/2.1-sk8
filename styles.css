@@ -152,25 +152,25 @@ span {
   transform: translateY(-320px);
   border-bottom: solid 2px white;
 }
+
 .skater-wide>img {
   width: 100%;
   border: solid 2px white;
 }
 
-
-}
 .skater-small>img {
   width: 100%;
 }
+
 .skater>img {
   width: 100%;
   border: solid 2px white;
-  /* border: white solid 1px; */
-
-
 }
 
-
+.skateboards {
+  display: inline-block;
+  vertical-align: top;
+}
 /* grid on top of cameraman should be a background-image */
 
 /* .top-image::after {
