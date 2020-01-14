@@ -146,8 +146,16 @@ span {
   transform: translateX(120%);
 }
 
-.skater-small {
-  height: 210px;
+.skater-wide {
+  height: 320px;
+  overflow: hidden;
+  transform: translateY(-320px);
+  border-bottom: solid 2px white;
+}
+.skater-wide>img {
+  width: 100%;
+  border: solid 2px white;
+}
 
 
 }
@@ -156,6 +164,7 @@ span {
 }
 .skater>img {
   width: 100%;
+  border: solid 2px white;
   /* border: white solid 1px; */
 
 
