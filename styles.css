@@ -22,7 +22,7 @@ time {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
 }
 
 .top-image {
@@ -44,7 +44,7 @@ p {
   background-image: url("images/grid.png");
   opacity: 0.5;
   position: absolute;
-  width: 710px;
+  width: 720px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -52,17 +52,24 @@ p {
 }
 
 .article-modals {
+  display: inline;
   
 }
 
+
+
 .modal-card {
+
   background-color: white;
+
   color: black;
-  height: 275px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 15px;
-  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+
+
 
 
 }
