@@ -84,20 +84,37 @@ i.fab.fa-youtube {
 }
 
 span {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: white;
   background-color: red;
-  line-height: 50px;
+  line-height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0 5px;
 
 
+
+}
+
+.nav-row {
+  justify-content: center;
 
 }
 
 .nav {
   background-color: red;
-  margin: 0 auto;
   justify-content: center;
+  color: white;
+
+
+
 }
+
+.nav:not(:last-child) {
+  margin-right: 92.5px;
+}
+
+
 
 
 .top-image {
@@ -115,6 +132,18 @@ span {
   background-color: white;
   margin: 15px;
   padding: 15px;
+
+}
+
+.read-buttons {
+  color: red;
+  border-style: solid 1px red;
+  background-color: white;
+  border-left: solid 1px red;
+  border-right: solid 1px red;
+  border-top: none;
+  border-bottom: none;
+  transform: translateX(120%);
 }
 
 
