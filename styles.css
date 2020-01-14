@@ -107,6 +107,16 @@ span {
   height: 300px;
 }
 
+.modal-article {
+
+}
+
+.modal-card {
+  background-color: white;
+  margin: 15px;
+  padding: 15px;
+}
+
 
 /* grid on top of cameraman should be a background-image */
 
@@ -121,25 +131,3 @@ span {
   right: 0;
   left: 25px;
 } */
-
-.modal-card {
-  width: 200px;
-  background-color: white;
-  color: black;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-top: 5px;
-}
-
-.modal-article {
-  width: 815px;
-}
-
-.skateboarders {
-  width: 815px;
-}
-
-.article-div {
-  display: block;
-}
