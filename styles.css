@@ -179,8 +179,7 @@ span {
 }
 
 .skateboards {
-  /* transform: rotate(-90deg); */
-  background-color: white;
+  /* transform: rotate(-90deg); */  background-color: white;
 
   width: fit-content;
   height: 1000px;
