@@ -139,11 +139,8 @@ span {
   color: red;
   border-style: solid 1px red;
   background-color: white;
-  border-left: solid 1px red;
-  border-right: solid 1px red;
-  border-top: none;
-  border-bottom: none;
-  transform: translateX(120%);
+  border: none;
+  transform: translateX(100%);
 }
 
 .skaters {
