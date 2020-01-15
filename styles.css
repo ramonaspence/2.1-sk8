@@ -146,10 +146,11 @@ span {
   transform: translateX(120%);
 }
 
+
 .skater-wide {
   height: 320px;
   overflow: hidden;
-  transform: translateY(-320px);
+  transform: translateY(-100%);
   border-bottom: solid 2px white;
 }
 
@@ -168,8 +169,13 @@ span {
 }
 
 .skateboards {
-  display: inline-block;
-  vertical-align: top;
+  transform: rotate(90deg);
+  background-color: white;
+  
+}
+
+.skateboards>img {
+
 }
 /* grid on top of cameraman should be a background-image */
 
