@@ -125,7 +125,7 @@ span {
 }
 
 .modal-article {
-
+  height: 250px;
 }
 
 .modal-card {
@@ -146,6 +146,9 @@ span {
   transform: translateX(120%);
 }
 
+.skaters {
+  height: 550px;
+}
 
 .skater-wide {
   height: 320px;
@@ -166,17 +169,25 @@ span {
 .skater>img {
   width: 100%;
   border: solid 2px white;
+
+}
+
+.skateboard-img {
+  /* transform: rotate(-90deg); */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .skateboards {
-  transform: rotate(90deg);
+  /* transform: rotate(-90deg); */
   background-color: white;
-  
+
+  width: fit-content;
+  height: 1000px;
+
 }
 
-.skateboards>img {
 
-}
 /* grid on top of cameraman should be a background-image */
 
 /* .top-image::after {
