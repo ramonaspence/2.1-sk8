@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 a {
@@ -9,10 +10,9 @@ a {
 
 ul {
   list-style: none;
-
 }
 
-/* background-overlay-effect */
+/* background-overlay-affect */
 body {
   background: linear-gradient(rgba(130, 130, 130, .5),
       rgba(130, 130, 130, .5)),
@@ -32,34 +32,29 @@ time {
 p {
   font-size: 0.6rem;
 }
-
-/* .container {
-  width: 850px;
-} */
-
+.header {
+  display: flex;
+}
 .subscribe {
-  text-align: right;
+  display: flex;
   padding-top: 10px;
-
+  flex-direction: row-reverse;
 }
 
 .icons {
-  padding-left: 55px;
-  text-align: center;
-
+  display: flex;
+  flex-direction: row-reverse;
 }
-
 
 i {
   font-size: 25px;
+  text-align: center;
   color: white;
   box-shadow: 0px 5px gray;
   height: 40px;
   width: 40px;
   margin: 5px;
   padding-top: 5px;
-  z-index: -20;
-
 }
 
 i.fab.fa-facebook-f {
@@ -71,7 +66,6 @@ i.fas.fa-rss {
   background-color: orange;
   opacity: 0.3;
 }
-
 
 i.fab.fa-twitter {
   background-color: lightblue;
@@ -91,109 +85,122 @@ span {
   margin-right: 5px;
   margin-left: 5px;
   padding: 0 5px;
-
-
-
 }
 
 .nav-row {
-  justify-content: center;
-
+  justify-content: space-between;
 }
 
 .nav {
-  background-color: red;
-  justify-content: center;
+  /* background-color: red; */
+  justify-content: space-around;
   color: white;
 
+}
+
+button {
+  background: red;
 
 
 }
 
 .nav:not(:last-child) {
-  margin-right: 92.5px;
+  /* margin-right: ; */
 }
-
-
-
 
 .top-image {
   background-image: url("./images/top-image.png");
-  border: white solid 10px;
+  background-position: 30% 10%;
+  background-repeat: no-repeat;
+  border: white solid 3px;
   overflow: hidden;
-  height: 300px;
+  height: 24rem;
+}
+
+.article-div {
+  display: flex;
+
 }
 
 .modal-article {
-  height: 250px;
+  display: flex;
+  justify-content: space-between;
+
+
 }
 
 .modal-card {
   background-color: white;
-  margin: 15px;
-  padding: 15px;
+  padding: 0.6rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 
 }
 
+.modal-card p {
+  padding: .5rem;
+}
+
+.modal-card h2 {
+  padding: .5rem;
+}
+
+.modal-card time {
+  padding: .5rem;
+}
+
 .read-buttons {
+  margin-left: 25%;
   color: red;
   border-style: solid 1px red;
   background-color: white;
   border: none;
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
+}
+
+.skaters-div {
+
+
 }
 
 .skaters {
-  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
-.skater-wide {
+.skater {
+  border: solid 1px white;
+  height: 15rem;
+  padding: 5px;
+  
+
+}
+
+.skater4 {
+  height: 14rem;
+  overflow: hidden;
+  border: solid 1px white;
+
+}
+ .skater-wide {
   height: 320px;
   overflow: hidden;
-  transform: translateY(-100%);
-  border-bottom: solid 2px white;
 }
 
-.skater-wide>img {
-  width: 100%;
-  border: solid 2px white;
-}
 
-.skater-small>img {
-  width: 100%;
-}
+.skateboards {
+  background-color: white;
 
-.skater>img {
-  width: 100%;
-  border: solid 2px white;
-
+  display: inline-block;
+  transform-origin: center;
+  transform: rotate(90deg);
 }
 
 .skateboard-img {
-  /* transform: rotate(-90deg); */
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.skateboards {
-  /* transform: rotate(-90deg); */  background-color: white;
-
-  width: fit-content;
-  height: 1000px;
 
 }
-
-
-/* grid on top of cameraman should be a background-image */
-
-/* .top-image::after {
-  content: '';
-  background-image: url("images/grid.png");
-  opacity: 0.5;
-  position: absolute;
-  width: 720px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 25px;
-} */
