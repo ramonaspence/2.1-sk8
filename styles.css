@@ -159,35 +159,33 @@ button {
   /* transform: translateX(100%); */
 }
 
-.skaters-div {
-
-
+.skaters {
+  overflow: hidden;
+  border-bottom: solid 1px white;
 }
 
-.skaters {
+.skater img {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  border: solid 1px white;
 
 }
 
 .skater {
-  border: solid 1px white;
+  display: flex;
+  flex-direction: column;
   height: 15rem;
-  padding: 5px;
-  
+}
 
+.skater4 img {
+  border: solid white 1px;
 }
 
 .skater4 {
-  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  height: 13rem;
   overflow: hidden;
-  border: solid 1px white;
 
-}
- .skater-wide {
-  height: 320px;
-  overflow: hidden;
 }
 
 
@@ -195,12 +193,15 @@ button {
   background-color: white;
 
   display: inline-block;
-  transform-origin: center;
+  transform-origin: top left;
   transform: rotate(90deg);
+  position: relative;
+  left: 100%;
 }
 
 .skateboard-img {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.47rem;
+  padding-bottom: 1.47rem;
+  border: solid white 1px;
 
 }
