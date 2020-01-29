@@ -17,6 +17,7 @@ body {
   background: linear-gradient(rgba(130, 130, 130, .5),
       rgba(130, 130, 130, .5)),
     url("images/bg.jpg") no-repeat;
+  /* background-position: center; */
 }
 
 h2 {
@@ -80,7 +81,7 @@ i.fab.fa-youtube {
 span {
   font-size: 1.6rem;
   color: white;
-  background-color: red;
+  background-color: #B62330;
   line-height: 30px;
   margin-right: 5px;
   margin-left: 5px;
@@ -99,7 +100,7 @@ span {
 }
 
 button {
-  background: red;
+  background: #B62330;
 
 
 }
@@ -115,6 +116,10 @@ button {
   border: white solid 3px;
   overflow: hidden;
   height: 24rem;
+}
+
+.grid {
+  opacity: .4;
 }
 
 .article-div {
@@ -178,6 +183,8 @@ button {
 
 .skater4 img {
   border: solid white 1px;
+  position: relative;
+  height: 16rem;
 }
 
 .skater4 {
@@ -190,18 +197,56 @@ button {
 
 
 .skateboards {
-  background-color: white;
+  background-color: #fff;
+  margin-top: 2rem;
 
-  display: inline-block;
-  transform-origin: top left;
-  transform: rotate(90deg);
-  position: relative;
-  left: 100%;
 }
 
 .skateboard-img {
-  padding-top: 1.47rem;
-  padding-bottom: 1.47rem;
-  border: solid white 1px;
+    height: 260px;
+    width: 62px;
+}
 
+.skateboard-img img {
+    transform-origin: left top;
+    transform: rotate(90deg) translateY(-100%);
+    width: 260px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 1rem 1rem;
+    position: relative;
+    margin-top: 20px;
+  }
+
+.text-contact h2 {
+  font-size: 1.8rem;
+}
+
+.text-contact p {
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form input {
+  font-size: .8rem;
+  margin-top: .5rem;
+}
+
+.msg {
+  height: 5rem;
+
+}
+
+.submit {
+    color: white;
+    width: 15rem;
+    align-self: flex-end;
+    margin-top: 1rem;
 }
